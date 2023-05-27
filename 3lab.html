@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <link rel="stylesheet" href="3labstyle.css">
+    <script type="text/javascript" src="3lab.js"></script>
+  </head>
+  <body>
+    <div class="split left">
+        <div class="centered">
+          <img src="" alt="">
+          <h2></h2>
+          <p></p>
+          <p style="font-size: 20px; color:#1F9AFE;">
+            <a href="lab.html">Atpakaļ uz sākumlapu</a>
+             </p>
+        </div>
+      </div>
+      
+      <div class="split right">
+        <div class="centered">
+          <img src="" alt="">
+          <h1>Publiskā datubāze</h1>
+          <p class="svitrots"> <u>Šajā datubāzē tu vari apskatīties pieeamās vielas un aprīkojumu</u></p>
+        </div>
+      </div>
+      <link href="3labstyle.css" rel="stylesheet" type="text/css">
+      
+    </head>
+    <input type="search" placeholder="Meklēt...">
+    <button class="visu"
+    type="button"> 
+     Rādīt visu
+    </button>
+    <button class="vielas"
+    type="button"> 
+     Rādīt vielas
+    </button>
+    <button class="aprikojumu"
+    type="button"> 
+     Rādīt aprīkojumu
+    </button>
+    <body>
+  
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Rādīt visu</button>
+        <button class="btn" onclick="filterSelection('vielas')"> Rādīt vielas</button>
+        <button class="btn" onclick="filterSelection('aprīkojums')"> Rādīt aprīkojumu</button>
+       
+      </div>
+
+      <table>
+        
+        <tr>
+          <th>Apakštips</th>
+          <th>Id</th>
+          <th>Komentāri</th>
+          <th>Nosaukums</th>
+          <th>Skaits</th>
+          <th>Tips</th>
+          <th>Daudzums</th>
+          <th>Mērvienības</th>
+        </tr>
+        <div class="container">
+        <div class="filterDiv aprīkojums"></div>
+        <tr>
+          <td>Mehāniskie svari</td>
+          <td>1</td>
+          <td></td>
+          <td>Mehāniskie svari QWS</td>
+          <td>5</td>
+          <td>svari</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </div>
+      
+      <div class="filterDiv aprīkojums">
+        <tr>
+          <td>Elektroniskie svari</td>
+          <td>2</td>
+          <td>Darbojas uz 3 AAA tipa baterijām</td>
+          <td>Elektroniskie svari ES-25</td>
+          <td>15</td>
+          <td>svari</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </div>
+        <div class="filterDiv aprīkojums">
+        <tr>
+          <td>Plītiņa</td>
+          <td>3</td>
+          <td>  Strāvas vada garums 1m</td>
+          <td>Elektriskā plītiņa</td>
+          <td>8</td>
+          <td>sildītājs</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </div>
+        <div class="filterDiv aprīkojums">
+        <tr>
+          <td>Trauki</td>
+          <td>4</td>
+          <td>Kolbas īpaši lielām vielām</td>
+          <td>Milzīgās kolbas</td>
+          <td>100</td>
+          <td>trauks</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </div>
+        <div class="filterDiv aprīkojums">
+        <tr>
+          <td>Stikls</td>
+          <td>5</td>
+          <td>Viegli plīstoša</td>
+           <td>Stikla mēģene</td>
+           <td>12</td>
+           <td>trauks</td>
+           <td></td>
+           <td></td>
+          </tr>
+        </div>
+        <div class="filterDiv vielas">
+          <tr>
+            <td>Sāls</td>
+            <td>2</td>
+            <td></td>
+            <td>Kalcija karbonāts CaCO3</td>
+            <td>25</td>
+            <td>reaģents</td>
+            <td>100</td>
+            <td>g</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>hidroksīds</td>
+            <td>3</td>
+            <td>Šķīdums izvedots un sapildīts 2020.09.23</td>
+            <td>NaOH šķīdums 10%/td>
+            <td>45</td>
+            <td>reaģents</td>
+            <td>50</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>skābe</td>
+            <td>4</td>
+            <td>Šķīdums izvedots un sapildīts 2020.10.21</td>
+            <td>Sālsskābes HCl šķīdums 20%</td>
+            <td>24</td>
+            <td>reaģents</td>
+            <td>100</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test1</td>
+            <td>5</td>
+            <td>Šķīdums izvedots un sapildīts 2020.09.23</td>
+            <td>	
+              NaOH šķīdums 10%</td>
+            <td>45</td>
+            <td>reaģents</td>
+            <td>50</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>hidroksīds</td>
+            <td>6</td>
+            <td>Šķīdums izvedots un sapildīts 2020.09.23</td>
+            <td>NaOH šķīdums 20%</td>
+            <td>45</td>
+            <td>reaģents</td>
+            <td>100</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>7</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>45</td>
+            <td>reaģents</td>
+            <td>50</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>8</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>9</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>10</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>11</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>12</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>13</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>14</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+          <div class="filterDiv vielas">
+          <tr>
+            <td>test2</td>
+            <td>15</td>
+            <td>Šķīdums izvedots un sapildīts lorem ipsum</td>
+            <td>NaOH šķīdums 10%</td>
+            <td>4</td>
+            <td>reaģents</td>
+            <td>5</td>
+            <td>ml</td>
+          </tr>
+        </div>
+      </div>
+      </table>
+       <button class="kluda"
+        type="button"> 
+         Ziņot par kļūdu
+        </button>
+  
+  
+</html> 
